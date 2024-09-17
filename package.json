@@ -1,0 +1,27 @@
+{
+  "name": "pbscloud-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "your-server-start-command",
+    "test": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test start http://localhost:3000 test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "start-server-and-test": "^2.0.5"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "mssql": "^11.0.1",
+    "pbscloud-cypress": "file:",
+    "pg": "^8.12.0"
+  }
+}
